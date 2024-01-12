@@ -128,7 +128,7 @@ Dashboard is present on url : http://127.0.0.1:80/
 
 ### Developer's guide 
 There is two main parts for the code  :
-. data.py
+. data.py \n
 . dashboard.py
 
 
