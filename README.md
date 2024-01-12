@@ -23,17 +23,17 @@
       <ul>
         <li><a href="#prerequis">Prérequis</a></li>
         <li><a href="#installation">Installation</a></li>
-        <li><a href="#run project">Exécution du Projet</a></li>
+        <li><a href="#Exécution du Projet">Exécution du Projet</a></li>
       </ul>
     </li>
     <li>
-      <a href="#developer_guide">Guide du Développeur</a></li>
+      <a href="#Guide du Développeur">Guide du Développeur</a></li>
       <ul>
-        <li><a href="#data_cleaning">Nettoyage des Données</a></li>
+        <li><a href="#Nettoyage des Données">Nettoyage des Données</a></li>
         <li>
           <a href="#dashboard">Tableau de Bord</a>
             <ul>
-              <li><a href="#frontend">Interface Utilisateur</a></li>
+              <li><a href="#Interface Utilisateur">Interface Utilisateur</a></li>
               <li><a href="#backend">Backend</a></li>
             </ul>
         </li>
@@ -147,5 +147,10 @@ L'interface utilisateur est conçue pour être intuitive et facile à utiliser. 
 #### Logique de l'Application (Backend)
 
 Le backend est l'endroit où la magie opère pour récupérer, traiter et visualiser les données. Il utilise les données nettoyées fournies par `data.py` et les transforme en visualisations interactives. Le backend gère également les interactions de l'utilisateur, en répondant dynamiquement aux entrées et en ajustant les visualisations en conséquence. Cette partie du code est essentielle pour assurer que le tableau de bord ne se contente pas d'afficher des données, mais fournisse une expérience interactive et informative à l'utilisateur.
+
+###  Modifier/Ajouter du code
+Pour modifier une figure, il suffit d'aller dans le fichier où elle se trouve (dashboard.py) et la modifier directement. Pour ajouter une figure, il faut, si besoin, créer une fonction de tri/nettoyage dans data_processing.py, puis selon si elle contient une carte ou non la créer dans maps.py ou graphs.py. Pour l'afficher, il faudra :
+
+* Si elle doit apparaitre lors de l'initialisation du dashboard, l'ajouter comme paramètre dans la fonction create_dashboard que l'on modifiera dans le fichier dashboard.py. Dans cette fonction, vous pouvez créer de nouveaux onglets pour afficher de nouvelles figures, ou l'ajouter à la suite d'autres figures dans des onglets déjà existants.
 
 
