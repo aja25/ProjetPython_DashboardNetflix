@@ -54,7 +54,6 @@ Le jeu de données est disponible sur Kaggle :
 Ce jeu de données combine des sources de données de Netflix tels que le titre, les directeurs, les acteurs qui ont travaillés sur le projet.
 Notez qu'il n'existe pas d'API officielle Netflix.
 
-"Hidden Gem Score" est calculé en utilisant un faible nombre de critiques et une note élevée. Plus le nombre de critiques est faible et plus la note des utilisateurs est élevée, plus le score de gemme cachée est élevé.
 
 Utilisez le `README.md` pour démarrer.
 
@@ -75,6 +74,15 @@ Ce projet est écrit en Python 3.11.7 et utilise une liste de bibliothèques pou
 
 <!-- POUR COMMENCER -->
 ## Pour Commencer
+### Prerequisites
+
+You need to install packages to run project.
+The simpler way is to run the following code.
+
+* Install prerequisites
+  ```sh
+  python -m pip install -r requirements.txt
+  ```
 
 Pour obtenir le projet, vous devez le cloner avec la commande suivante :
 
@@ -116,5 +124,13 @@ If no error appear, you can run the project by execute the command follow :
 Dashboard is present on url : http://127.0.0.1:80/
 
 <p align="right">(<a href="#top">back to top</a>)</p>
+
+
+### Developer's guide 
+There is two main parts for the code  :
+. data.py
+. dashboard.py
+
+
 
 
