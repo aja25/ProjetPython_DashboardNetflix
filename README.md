@@ -153,4 +153,6 @@ Pour modifier une figure, il suffit d'aller dans le fichier où elle se trouve (
 
 * Si elle doit apparaitre lors de l'initialisation du dashboard, l'ajouter comme paramètre dans la fonction create_dashboard que l'on modifiera dans le fichier dashboard.py. Dans cette fonction, vous pouvez créer de nouveaux onglets pour afficher de nouvelles figures, ou l'ajouter à la suite d'autres figures dans des onglets déjà existants.
 
+### Ajout Supplémentaire 
 
+"app.run_server(debug=True, port=80)" cette ligne de code se trouve dans le fichier dashboard.py, et nous avons ajouter le port=80.
