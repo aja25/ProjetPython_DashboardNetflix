@@ -49,10 +49,9 @@ Il s'agit d'un projet de deuxième année d'études d'ingénierie.
 Il s'est déroulé sur deux périodes : le mois d'octobre, ainsi que le mois de décembre.
 L'objectif est de créer un tableau de bord interactif avec une carte et un histogramme.
 Le jeu de données est disponible sur Kaggle :
-[www.kaggle.com/ashishgup/netflix-rotten-tomatoes-metacritic-imdb.](https://www.kaggle.com/datasets/shivamb/netflix-shows)
+[(https://www.kaggle.com/datasets/shivamb/netflix-shows/data)](https://www.kaggle.com/datasets/shivamb/netflix-shows)
 
-Ce jeu de données combine des sources de données de Netflix, Rotten Tomatoes, IMBD, des affiches, des informations sur le box-office,
-des bandes-annonces sur YouTube, et plus encore en utilisant une variété d'APIs.
+Ce jeu de données combine des sources de données de Netflix tels que le titre, les directeurs, les acteurs qui ont travaillés sur le projet.
 Notez qu'il n'existe pas d'API officielle Netflix.
 
 "Hidden Gem Score" est calculé en utilisant un faible nombre de critiques et une note élevée. Plus le nombre de critiques est faible et plus la note des utilisateurs est élevée, plus le score de gemme cachée est élevé.
@@ -82,3 +81,40 @@ Pour obtenir le projet, vous devez le cloner avec la commande suivante :
 * Cloner le dépôt git
   ```sh
   [git clone (https://github.com/aja25/ProjetPython_DashboardNetflix.git)]
+
+### Installation
+
+But if you want to install separately you can install one by one like follow.
+
+1. Pandas
+  ```sh
+  pip install pandas
+  ```
+2. Numpy
+  ```sh
+  pip install numpy
+  ```
+3. Dash
+  ```sh
+  pip install dash
+  ```
+4. Plotly
+  ```sh
+  pip install plotly
+  ```
+5. Kaggle
+  ```sh
+  pip install kaggle
+  ```
+
+
+### Run project
+If no error appear, you can run the project by execute the command follow : 
+ ```sh
+  python main.py
+  ```
+Dashboard is present on url : http://127.0.0.1:80/
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
