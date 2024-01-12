@@ -21,7 +21,7 @@
     <li>
       <a href="#getting-started">Pour Commencer</a>
       <ul>
-        <li><a href="#prerequisites">Prérequis</a></li>
+        <li><a href="#prerequis">Prérequis</a></li>
         <li><a href="#installation">Installation</a></li>
         <li><a href="#run project">Exécution du Projet</a></li>
       </ul>
@@ -126,15 +126,11 @@ Dashboard est présent à l'url : http://127.0.0.1:80/
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
-### Developer's guide 
-Il y a deux grandes parties à mon code  :
-* data.py
-* dashboard.py
-
-
 ## Guide du Développeur
 
-Ce projet est divisé en deux parties principales : le nettoyage des données et la création du tableau de bord.
+Ce projet est divisé en deux parties principales :
+*data.py
+*dashboard.py
 
 ### Nettoyage des Données
 
